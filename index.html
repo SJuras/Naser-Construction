@@ -21,7 +21,14 @@
 
 <!-- header -->
 <header class="header">
-  <a href="#" id="logo">Naser</a>
+  <a href="#" id="logo">
+    <div class="logo-container">
+      <div class="logo-img">
+        <img src="img/logo.png" alt="naser construction company logo" />
+      </div>
+      <h2>Naser</h2>
+    </div>
+  </a>
   <navbar class="nav">
       <a href="#">home</a>
       <a href="#about">about</a>
@@ -49,12 +56,56 @@
        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
     </p>
     <div class="inner-back-btn">
-      <a href="" class="first-btn">Read more</a>
-      <a href="" class="second-btn">view projects</a>
+      <a href="" class="first-btn">View Projects</a>
+      <a href="" class="second-btn">Contact Us</a>
     </div>
   </div>
 </div>
 <!-- hero section END -->
+
+<!-- contact -->
+<div class="contact" id="contact">
+  <div class="contact-row">
+    <div class="contact-half">
+      <div class="contact-form-container">
+        <div class="input-container">
+          <input type="text" placeholder="Full name" />
+        </div>
+        <div class="input-container">
+          <input type="text" placeholder="Company" />
+        </div>
+        <div class="input-container">
+          <input type="text" placeholder="Phone" />
+        </div>
+        <div class="input-container">
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="input-container">
+          <input type="text" placeholder="Subject" />
+        </div>
+        <textarea></textarea>
+        <div class="input-container-submit">
+          <input type="submit" value="Send" />
+        </div>
+      </div>
+    </div>
+    <div class="contact-half">
+      <h4>Contact Info</h4>
+      <ul>
+        <li><i class="fas fa-phone-alt"></i>+971 678 2217</li>
+        <li><i class="far fa-envelope"></i>info@naserconstruction.com</li>
+        <li><i class="fas fa-map-marker-alt"></i>22 Main Street, Abu Dhabi, UAE</li>
+      </ul>
+      <h4>Office Hours</h4>
+      <ul>
+        <li>Monday - Friday : 9am - 5pm (GST)</li>
+        <li>Saturday : 10am - 2pm (GST)</li>
+        <li>Sunday : Closed</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- contact END -->
 
 <!-- footer -->
 <footer>
@@ -62,6 +113,9 @@
     <div class="footer-row">
       <a href="#">
         <div class="footer-logo">
+          <div class="footer-logo-img">
+            <img src="img/logo.png" alt="naser construction company logo" />
+          </div>
           <h4>Naser</h4>
         </div>
       </a>
@@ -78,5 +132,6 @@
 </footer>
 <!-- footer END -->
 
+  <script src="js/smoothScroll.js"></script>
 </body>
 </html>

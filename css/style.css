@@ -31,7 +31,7 @@ img {
 
 /* header */
 .header {
-  padding: 2rem 7%;
+  padding: 1.2rem 7%;
   position: fixed;
   left: 0;
   right: 0;
@@ -42,7 +42,19 @@ img {
   z-index: 10000;
 }
 
-#logo {
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 40px;
+  height: auto;
+  margin-right: 6px;
+}
+
+#logo .logo-container h2 {
   color: var(--mainclr);
   font-size: 30px;
 }
@@ -132,7 +144,7 @@ img {
 
 .inner-back-text p {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 15px;
   padding: 1rem;
 }
@@ -164,10 +176,62 @@ img {
 }
 /* hero section END */
 
+/* contact */
+.contact {
+  padding: 2rem 7%;
+}
+
+.contact-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-half {
+  flex: 1;
+}
+
+.contact-half h4 {
+  color: var(--headerclr);
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.contact-half ul {
+  margin-bottom: 24px;
+}
+
+.contact-half ul li {
+  margin-bottom: 6px;
+}
+
+.contact-half ul li i {
+  margin-right: 6px;
+}
+/* contact END */
+
 /* footer */
 footer {
   background-color: var(--headerclr);
   padding: 2rem 7%;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-logo-img {
+  width: 30px;
+  height: auto;
+  margin-right: 6px;
+}
+
+.footer-logo h4 {
+  font-size: 24px;
+  color: var(--mainclr);
 }
 
 .footer-container {
@@ -197,7 +261,7 @@ footer {
 /* media queries */
 @media (max-width:767px) {
   .header {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .nav {
